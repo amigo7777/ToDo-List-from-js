@@ -1,0 +1,118 @@
+.todo-list{
+    background-color: rgb(214, 255, 255);
+    transition: 0.3s;
+    border-radius: 5px; /* 5px rounded corners */
+    box-shadow: 0.3em 0.4em 7px rgba(122,122,122,0.5);
+    width: 95%;
+
+}
+
+*{
+  box-sizing: border-box;
+}
+
+.home-page{
+    position: relative;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.login-form{
+    /* display: flex;
+    width: 120px;
+    height: 120px; */
+    
+}
+
+.base-page{
+    /* width: 100%; 
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start; */
+}
+
+.form-field {
+    /* display:flex;
+    width: 100px;
+    outline: none;
+    text-align: center; */
+  }
+
+
+
+
+  
+  textarea {
+    outline: none;
+  }
+  
+  button {
+    color: white;
+    border-color: blueviolet;
+    background: slateblue;
+    border-radius: 13em;
+    width: 150px;
+    height: 25px;
+  }
+  .form-feedback > input:hover {
+    font-family: Florence, cursive;
+    outline: none;
+    border: 2px solid rgb(4, 147, 230);
+    text-align: center;
+    border-style: inset;
+  }
+  
+  
+  button {
+    margin: 20px;
+    width: 130px;
+    height: 40px;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+     box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+     7px 7px 20px 0px rgba(0,0,0,.1),
+     4px 4px 5px 0px rgba(0,0,0,.1);
+    outline: none;
+    background: #b621fe;
+    border: none;
+    z-index: 1;
+  }
+  
+  button:after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 100%;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    background-color: #663dff;
+    border-radius: 5px;
+     box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+     7px 7px 20px 0px rgba(0,0,0,.1),
+     4px 4px 5px 0px rgba(0,0,0,.1);
+    transition: all 0.3s ease;
+  }
+  button:hover {
+    color: #fff;
+  }
+  button:hover:after {
+    left: 0;
+    width: 100%;
+  }
+  button:active {
+    top: 2px;
+  }
