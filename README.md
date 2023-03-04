@@ -10,3 +10,4 @@
   - удаление задач.
   
 ### 🤝
+## более подходящий сервер лежит в репозитории <a href="https://github.com/amigo7777/Backend-to-js" target="_blank" rel="noreferrer">Backend-to-js</a>
